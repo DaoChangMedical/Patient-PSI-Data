@@ -1,0 +1,22 @@
+{
+    "intersystems.servers": {},
+    "objectscript.conn": {
+        "server": "default~iris",
+        "ns": "DATASHEET",
+        "active": true
+    },
+    "objectscript.export": {
+        "folder": "src/cls",
+        "addCategory": false,
+        "map": {},
+        "atelier": true,
+        "generated": false,
+        "filter": "",
+        "exactFilter": "",
+        "category": "*",
+        "noStorage": true,
+        "dontExportIfNoChanges": true,
+        "maxConcurrentConnections": 0,
+        "mapped": true
+    }
+}

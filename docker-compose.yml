@@ -1,0 +1,22 @@
+version: '3.6'
+services:
+  iris:
+    build:
+      context: ./iris-image
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 51775:1972
+      - 52775:52773
+      - 53775
+    container_name: iris-demo
+  demo:
+        image: nginx:latest
+        ports:
+            - "4007:80"
+        container_name: vue-demo
+        volumes:
+            - ./vue-web/html/hccs/dist/:/usr/share/nginx/html/
+            - ./vue-web/nginx/:/etc/nginx/conf.d/
+        restart: always
+        privileged: true

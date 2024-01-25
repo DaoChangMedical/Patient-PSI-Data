@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="IRIS" version="26">
+<Global>
+<Node><Sub>^%SYS(&quot;sql&quot;,&quot;ODBCCONNECTION&quot;)</Sub>
+<Node><Sub>DATA</Sub>
+<Data>2</Data>
+<Node><Sub>1</Sub>
+<DataBase64>AgERAUlSSVNIZWFsdGggVXNlcgYBaXJpcwsBc3VwZXJ1c2VyGgFGajRwTERnR2lDeEMwSEhwMmpR
+WmlRPT0CBAIEAgECAQIBAgECBAIBAgQCBAMEAQIEAwQBAgQCAQIEAgQCAQ==
+</DataBase64>
+</Node>
+<Node><Sub>2</Sub>
+<DataBase64>AgECAQoBaXJpc2pkYmMLAXN1cGVydXNlchoBWmNwazEzaWVJZUZSWWowNEdKZmlDdz09AgQDBAEm
+AWpkYmM6SVJJUzovLzEyNy4wLjAuMToxOTcyL0RBVEFTSEVFVCIBY29tLmludGVyc3lzdGVtcy5q
+ZGJjLklSSVNEcml2ZXICAQIBAgQCAQIEAgQDBAECBAIEAgQCAQIEAgQCAQ==
+</DataBase64>
+</Node>
+</Node>
+<Node><Sub>INDEX</Sub>
+<Node><Sub>NameIndex</Sub>
+<Node><Sub> IRIS</Sub>
+<Node><Sub>1</Sub>
+<Data></Data>
+</Node>
+</Node>
+<Node><Sub> IRISJDBC</Sub>
+<Node><Sub>2</Sub>
+<Data></Data>
+</Node>
+</Node>
+</Node>
+</Node>
+</Node>
+</Global>
+</Export>

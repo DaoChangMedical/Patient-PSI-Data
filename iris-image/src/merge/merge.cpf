@@ -1,0 +1,10 @@
+# 使用volume创建iris container时，用户创建的数据库不能放在/usr/irissys/mgr下面
+# 默认的位置时durable %sys的配置位置，这里是/dur/iconfig/mgr
+
+[Startup]
+SystemMode=TEST
+
+[Actions]
+CreateResource:Name=%DB_DATASHEET,Description="DATASHEET database"
+CreateDatabase:Name=DATASHEET,Directory=/usr/irissys/mgr/DATASHEET
+CreateNamespace:Name=DATASHEET,Globals=DATASHEET,Interop=1

@@ -1,0 +1,8 @@
+    zn "%SYS"
+    do $SYSTEM.OBJ.Load("/dur/WebTerminal-v4.9.5.xml", "cuk")
+    do $SYSTEM.OBJ.Load("/dur/zpm-0.7.0.xml", "cuk")
+    do $SYSTEM.OBJ.Load("/dur/javaGW.xml","cuk")
+    zn "datasheet"
+    zpm "load /dur/ -v":1
+    exit
+    halt
