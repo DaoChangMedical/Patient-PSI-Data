@@ -6,8 +6,8 @@
 The Patient PSI Data Platform Container Version consists of two containers:
 
 + iris-demo ： This container contains the Patient PSI data elements and a RESTful API for retrieving patient personal information and pathological examination data：
-  + 患者PSI数据元
-  + 获取患者个人信息及病理检查信息的RESTful API
+  + Patient PSI (Patient Personal and Sensitive Information) 
+  + RESTful API for accessing personal information and pathological examination data of patients.
 + vue-demo: This container contains test cases used for testing, showcasing, and providing instructions for calls. Users can create their own frontend applications as needed. Test cases include:
   + Value set showcase
   + Patient PSI data information showcase, including clinical problem information, examination results, and personal information
