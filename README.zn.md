@@ -41,8 +41,9 @@
    IRIS管理门户： http://localhost:52775/csp/sys/UtilHome.csp
    用户名：superuser
    初始密码：SYS
-   新密码请改为：123
+   初次加载时请将密码改为：123
    ※管理门户初次访问无法加载的情况下，请等待2分钟左右再次尝试
+   
    ```
 6. 进入管理门户后需手动启动production
    ```shell
@@ -55,6 +56,9 @@
    患者PSI数据控制台：http://localhost:4007/#/patientPSI
    ※建议使用谷歌浏览器
    ```
+   
+## 系统运行步骤
+
 [《实施路径指南》](https://shimo.im/docs/aBAYMK7opotPlRAj/])
 [《CCH基于用例的实施指南》](https://shimo.im/docx/Wr3DpvJvaeUpBy3J/) 这里有详细文档
 
