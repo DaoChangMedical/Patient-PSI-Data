@@ -6,7 +6,7 @@
 患者PSI数据平台容器版包含两个容器：
 
 + iris-demo ： 这个容器里面包含InterSystems IRIS的所有特性和患者PSI数据：
-  + 数据元、值集SQL模型
+  + 患者PSI数据元
   + 发布/订阅交互服务
   + 获取患者个人信息及病理检查信息的RESTful API
 + vue-demo：这个容器里面包含一些测试用例（**这些用例只用于测试、展示、调用说明，用户可以根据需要创建自己的前端应用开发**）
@@ -14,10 +14,9 @@
   + 临床问题信息、检查结果信息、个人信息等患者PSI数据信息展示用例
   + 病理检查报告用例
 
-## 使用Docker部署测试环境
+## Deploying the Testing Environment Using Docker
 
-**Image 'IRISHealth community 2023.1.1.380.0' 需要从InterSystems官方Docker镜像仓库中拉取，**
-**Image 'nginx' 需要Docker镜像仓库中拉取，所以该环境搭建时需要连网**
+**The 'IRISHealth community 2023.1.1.380.0' image needs to be pulled from the official InterSystems Docker image repository, and the 'nginx' image needs to be pulled from the Docker image repository. Therefore, an internet connection is required during the environment setup.**
 1. 安装[Docker-destop](https://www.docker.com/products/docker-desktop)
 
 2. 下载源代码包，或者克隆此仓库。
