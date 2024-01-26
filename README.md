@@ -81,8 +81,8 @@
 
 ![Alt text](/image/report.png)
 
-[《安装步骤》](https://shimo.im/docs/aBAYMK7opotPlRAj/])
-[《患者PSI用例的实施指南》](https://shimo.im/docx/Wr3DpvJvaeUpBy3J/) 这里有视频记录
+[《安装步骤》]()
+[《患者PSI用例的实施指南》](https://github.com/DaoChangMedical/Patient-PSI-Data/assets/157679162/bd7adc07-6eee-49a9-a12b-51603e64ae55) 这里有视频记录
 
 
 **如果您部署的是互联互通套件Docker社区版，当前其InterSystems IRIS实例使用的是IRISHealth 2023.1.1.380.0 社区版，其内嵌License，仅供测试、二次开发使用。如果要进行生产环境的部署，请使用互联互通套件Docker标准版、本地或云部署的IRISHealth正式发布版本。**
