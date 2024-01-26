@@ -5,7 +5,7 @@
 
 The Patient PSI Data Platform Container Version consists of two containers:
 
-+ iris-demo ： 这个容器里面包含患者PSI数据元及RESTful API：
++ iris-demo ： This container contains the Patient PSI data elements and a RESTful API for retrieving patient personal information and pathological examination data：
   + 患者PSI数据元
   + 获取患者个人信息及病理检查信息的RESTful API
 + vue-demo: This container contains test cases used for testing, showcasing, and providing instructions for calls. Users can create their own frontend applications as needed. Test cases include:
@@ -80,5 +80,5 @@ The Patient PSI Data Platform Container Version consists of two containers:
 [《Implementation Guide for Patient PSI Use Cases》](https://github.com/DaoChangMedical/Patient-PSI-Data/assets/157679162/d5f0bcad-b471-4573-bc10-47074bee2cf5) can be found here along with video recordings.
 
 
-**如果您部署的是互联互通套件Docker社区版，当前其InterSystems IRIS实例使用的是IRISHealth 2023.1.1.380.0 社区版，其内嵌License，仅供测试、二次开发使用。如果要进行生产环境的部署，请使用互联互通套件Docker标准版、本地或云部署的IRISHealth正式发布版本。**
+**If you are deploying the Docker Community Edition, the current InterSystems IRIS instance being used is IRISHealth 2023.1.1.380.0 Community Edition, which comes with an embedded license and is intended for testing and secondary development purposes only. If you intend to deploy in a production environment, please use the Docker Standard Edition or the officially released version of IRISHealth for local or cloud deployment.**
 
