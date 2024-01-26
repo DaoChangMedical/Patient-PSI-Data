@@ -49,7 +49,9 @@ The Patient PSI Data Platform Container Version consists of two containers:
    production :'DATASHEETPKG.DataSheetProduction'.
    ```
 7. Access the example website at http://localhost:4007/#/patientPSI
+   ```shell
    Note:Google Chrome is recommended
+   ```
    
 ## System Operation Steps:
 1. Log in to the IRIS Management Portal, ensuring that the namespace 'DataSheet' and production 'DATASHEETPKG.DataSheetProduction' have started successfully.
