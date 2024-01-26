@@ -66,11 +66,11 @@ The Patient PSI Data Platform Container Version consists of two containers:
 
 ![Alt text](/image/psi-patient.png)
 
-4. Click on a patient card to open the patient information page. This page includes the patient's PSI information, covering personal information, clinical problem information, medication treatment information, immunization status information, examination results (laboratory test information, radiological examination information, electrocardiogram information, pathological examination information), and nursing plan information (diagnosis information, follow-up information, patient relationship information).
+4. Click on a patient card to open the patient information page. This page includes the patient's PSI information, covering Personal Details, Clinical Issues, Medication Therapy, Vaccination Status, Test Results (Lab Tests, Imaging Tests,  ECG (Heart Test), Pathology Tests), and Nursing Plans (Diagnoses, Follow-ups, Patient relations).
 
 ![Alt text](/image/patient-info.png)
 
-5. In the "Examination Results" section, specifically the "Pathological Examination Information," detailed patient pathology examination information is available. If a report is present, it can be downloaded and viewed by clicking on the last column [pdf].
+5. In the "Test Results" section, specifically the "Pathology Tests," detailed patient pathology examination information is available. If a report is present, it can be downloaded and viewed by clicking on the last column [pdf].
 
 ![Alt text](/image/pliex.png)
 
