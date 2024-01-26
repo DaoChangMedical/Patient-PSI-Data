@@ -58,7 +58,8 @@
    ```
    
 ## 系统运行步骤
-
+1. 确保命名空间【DataSheet】内Production【DATASHEETPKG.DataSheetProduction】已正常启动
+![Alt text](/image/image-1.png)
 [《实施路径指南》](https://shimo.im/docs/aBAYMK7opotPlRAj/])
 [《CCH基于用例的实施指南》](https://shimo.im/docx/Wr3DpvJvaeUpBy3J/) 这里有详细文档
 
