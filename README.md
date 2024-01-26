@@ -1,47 +1,46 @@
-# 患者PSI数据平台容器版
+# Patient PSI Data Platform Container Version
 
 
- **环境完全载入启动需要大概10-15分钟的时间** 
+ **The complete loading and startup of the Interoperability Suite Container Version take approximately 10-15 minutes.** 
 
-患者PSI数据平台容器版包含两个容器：
+The Patient PSI Data Platform Container Version consists of two containers:
 
-+ iris-demo ： 这个容器里面包含InterSystems IRIS的所有特性和患者PSI数据：
++ iris-demo ： 这个容器里面包含患者PSI数据元及RESTful API：
   + 患者PSI数据元
-  + 发布/订阅交互服务
   + 获取患者个人信息及病理检查信息的RESTful API
-+ vue-demo：这个容器里面包含一些测试用例（**这些用例只用于测试、展示、调用说明，用户可以根据需要创建自己的前端应用开发**）
-  + 值集展示用例
-  + 临床问题信息、检查结果信息、个人信息等患者PSI数据信息展示用例
-  + 病理检查报告用例
++ vue-demo: This container contains test cases used for testing, showcasing, and providing instructions for calls. Users can create their own frontend applications as needed. Test cases include:
+  + Value set showcase
+  + Patient PSI data information showcase, including clinical problem information, examination results, and personal information
+  + Pathological examination report cases
 
 ## Deploying the Testing Environment Using Docker
 
 **The 'IRISHealth community 2023.1.1.380.0' image needs to be pulled from the official InterSystems Docker image repository, and the 'nginx' image needs to be pulled from the Docker image repository. Therefore, an internet connection is required during the environment setup.**
-1. 安装[Docker-destop](https://www.docker.com/products/docker-desktop)
+1. Install Docker Desktop.(https://www.docker.com/products/docker-desktop)
 
-2. 下载源代码包，或者克隆此仓库。
+2. Download the source code package or clone this repository.
 
-3. 在已下载的安装文件夹中运行以下Docker命令
+3. In the downloaded installation folder, run the following Docker
 
    ```shell
    docker-compose up -d
    ```
 
-4. 运行docker-compose后，会启动两个container其具体功能[如上Image中所述](#互联互通套件容器版包含两个Image：)
+4. After running docker-compose, two containers will be started, each with specific functionalities as described in the images above:
 
    ```shell
    iris-demo
    vue-demo
    ```
 
-5. 访问InterSystems IRIS管理门户，端口号52775
+5. Access the InterSystems IRIS Management Portal with the following credentials:
 
    ```shell
-   IRIS管理门户： http://localhost:52775/csp/sys/UtilHome.csp
-   用户名：superuser
-   初始密码：SYS
-   初次加载时请将密码改为：123
-   ※管理门户初次访问无法加载的情况下，说明IRIS还没有启动完成，请等待几分钟再次尝试
+   IRIS Management Portal: http://localhost:52775/csp/sys/UtilHome.csp
+   Username:superuser
+   Initial Password:SYS
+   Change the password to '123' on the first login.
+   Note: If the Management Portal does not load on the initial attempt, it indicates that IRIS has not completed its startup. Please wait a few minutes and try again.
    
    ```
 6. 进入管理门户后需手动启动production
