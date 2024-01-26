@@ -16,8 +16,8 @@
 
 ## 使用Docker部署测试环境
 
-**Image 'IRISHealth community 2023.1.1.380.0' 需要从InterSystems官方Docker镜像仓库中拉取，所以该环境搭建时需要连网**
-**Image 'nginx' 需要Docker镜像仓库中拉取
+**Image 'IRISHealth community 2023.1.1.380.0' 需要从InterSystems官方Docker镜像仓库中拉取，**
+**Image 'nginx' 需要Docker镜像仓库中拉取，所以该环境搭建时需要连网**
 1. 安装[Docker-destop](https://www.docker.com/products/docker-desktop)
 
 2. 下载源代码包，或者克隆此仓库。
@@ -42,7 +42,7 @@
    用户名：superuser
    初始密码：SYS
    新密码请改为：123
-   ※管理门户无法加载的情况下，请等待2分钟左右再次尝试
+   ※管理门户初次访问无法加载的情况下，请等待2分钟左右再次尝试
    ```
 6. 进入管理门户后需手动启动production
    ```shell
