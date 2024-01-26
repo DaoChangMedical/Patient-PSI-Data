@@ -78,7 +78,7 @@
 5.【检查结果信息=》病理检查信息】包含了患者病理检查信息明细，如果有报告，则可以通过点击最后一列【pdf】进行下载并查看报告详细内容
 
 ![Alt text](/image/pliex.png)
-=》报告详情
+
 ![Alt text](/image/report.png)
 
 [《安装步骤》](https://shimo.im/docs/aBAYMK7opotPlRAj/])
